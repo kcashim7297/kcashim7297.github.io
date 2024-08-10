@@ -3268,18 +3268,18 @@ td:last-child {
 	font-weight        : 400;
 	font-size          : 1.6rem;
 	line-height        : var(--vspace-1);
-	color              : var(--color-2-lightest);
-	padding            : 0 1.2rem;
+	color: var(--color-3);
+	padding            : 0 2.0rem;
 	transition-property: color, background-color;
 }
 
 .s-header__menu-links a:focus,
 .s-header__menu-links a:hover {
-	color: var(--color-3);
+	color: var(--color-2-lightest);
 }
 
 .s-header__menu-links .current a {
-	color: var(--color-3);
+	color: var(--color-2-lightest);
 }
 
 /* header contact button
