@@ -2937,6 +2937,7 @@ td:last-child {
 
 .testimonials__slider {
 	padding-bottom: var(--vspace-2_5);
+	padding-left:20px;
 }
 
 .testimonials__author {
@@ -3243,11 +3244,17 @@ td:last-child {
  * ## main navigation
  * -------------------------------------------------------------------- */
 .s-header__nav {
-	margin-left    : var(--vspace-1);
+	margin-left    : var(--vspace-3);
 	display        : flex;
 	flex           : 1 1 0%;
 	align-items    : center;
 	justify-content: space-between;
+
+}
+
+.orange-line {
+	border-bottom: 2px solid #FFA500;
+	padding-bottom: 15px; 
 }
 
 .s-header__menu-links {
@@ -3255,12 +3262,10 @@ td:last-child {
 	display   : inline-flex;
 	flex-flow : row nowrap;
 	margin    : 0 4rem 0 0;
-	padding   : 0;
+	/* padding   : ; */
 }
 
-.s-header__menu-links li {
-	padding-left: 0;
-}
+
 
 .s-header__menu-links a {
 	display            : block;
@@ -3269,17 +3274,17 @@ td:last-child {
 	font-size          : 1.6rem;
 	line-height        : var(--vspace-1);
 	color: white;
-	padding            : 0 2.0rem;
+	padding            : 0 3.0rem;
 	transition-property: color, background-color;
 }
 
 .s-header__menu-links a:focus,
 .s-header__menu-links a:hover {
-	color: var(--color-2-lightest);
+	color: orange;
 }
 
 .s-header__menu-links .current a {
-	color: var(--color-2-lightest);
+	color: orange;
 }
 
 /* header contact button
